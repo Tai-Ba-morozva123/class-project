@@ -1,0 +1,24 @@
+* {
+    front-size: 30px;
+    front-weight: 500;
+}
+
+h3 {
+    color: burlywood;
+}
+
+h4 {
+    color: khaki;
+}
+
+.myclass {
+    color: darkorange;
+}
+
+myid {
+    color: mediumpurple;
+}
+
+h5.p {
+    color: yellowgreen;
+}
