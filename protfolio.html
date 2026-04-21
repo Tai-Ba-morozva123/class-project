@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Portfolio</title>
+    
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        body {
+            position: relative;
+        }
+
+        section {
+            padding: 100px 20px;
+            height: 100vh;
+            border-bottom: 2px solid #eee;
+        }
+
+        #home {
+            background-color: #ff9999;
+        }
+
+        #about {
+            background-color: #99ff99;
+        }
+
+        #services {
+            background-color: #9999ff;
+        }
+
+        #contact {
+            background-color: #ffff99;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-kids">
+
+    <nav id="navbar-kids" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"> My Portfolio</a>
+            <div class="navbar-nav">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner text-center bg-white p-5 rounded shadow">
+                <div class="carousel-item active">
+                    <h1>Welcome to My Page!</h1>
+                    <p>I love to code and create things.</p>
+                </div>
+                <div class="carousel-item">
+                    <h1>My Favorite Projects</h1>
+                    <p>Check out what I've been building!</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="text-center">
+        <h2>About Me</h2>
+        <p>I am a junior developer learning Bootstrap!</p>
+    </section>
+
+    <section id="services" class="text-center">
+        <h2>My Services</h2>
+        <p>I can build websites, play games, and solve puzzles.</p>
+    </section>
+
+    <section id="contact" class="text-center">
+        <h2>Contact Me</h2>
+        <p>Send me a message at: hello@example.com</p>
+    </section>
+
+    <
+    <script src="https://jsdelivr.net"></script>
+</body>
+
+</html>
